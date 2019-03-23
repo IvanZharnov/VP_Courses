@@ -1,3 +1,2 @@
-Denis development branch
-Nikita development branch.
+Denis development branch.
 
