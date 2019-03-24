@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0e0e0e;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #4391d2;
+  width: 32%;
+  height: 100%;
+}
+
+.phone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  width: 120px;
+  height: 250px;
+  margin: 50px auto 20px;
+}
+
+.speaker {
+  width: 15px;
+  height: 1px;
+  border: 1px solid #e6e6e6;
+}
+
+.screen {
+  width: 120px;
+  height: 200px;
+  border: 1px solid #e6e6e6;
+}
+
+.circleButton {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.subTitle {
+  text-align: center;
+  color: #d1e5f9;
+  font-family: Arial;
+  margin: 10px 0 20px;
+}
+
+.boldText {
+  font-weight: bold;
+  color: #d1e5f9;
+  border-bottom: 1px #d1e5f9 dashed;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.whiteButton {
+  font-family: Arial;
+  color: #3166ff;
+  background-color: #fff;
+  width: 95%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.transparentButton {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  height: 40px;
+  color: #fff;
+  width: 95%;
+  margin: 0 auto 10px;
+}
+
+.imgInButton {
+  width: 10px;
+  height: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 32%;
+  height: 100%;
+}
+
+.descriptionBlock{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto 10px;
+}
+
+.roundPhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  padding: 2px;
+  border: 0.5px solid #dad8d8;
+  margin-bottom: 20px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.headline {
+  color: #828288;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+
+.reverseHeadline{
+  color: #828288;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+
+.description {
+  color: #999999;
+  margin: 0 20px 30px;
+}
+
+.separation {
+  border: 1px solid #999999;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  height: auto;
+  width: 32%;
+  color: #b0b0b0;
+  font-family: Arial;
+}
+
+.socialBar{
+  display: flex;
+}
+
+.socialIcon {
+  margin: 30px 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.copyRyght{
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+.dotted {
+  border-bottom: 1px #b0b0b0 dashed;
+}
+
+@media screen and (min-width: 764px) {
+
+  .header {
+    width: 764px;
+  }
+
+  .subTitle {
+    margin: 10px 50px 20px;
+    padding: 0 180px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .whiteButton {
+    width: 15%;
+    margin: 5px 10px;
+  }
+
+  .transparentButton {
+    width: 15%;
+    margin: 5px 10px;
+  }
+
+  .main {
+    width: 764px;
+  }
+
+  .descriptionBlock {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .roundPhoto {
+    margin: 0 20px 30px;
+  }
+
+  .content {
+    padding-right: 50px;
+    text-align: left;
+  }
+
+  .left{
+    text-align: right;
+    padding: 0 0 0 50px;
+  }
+
+  .headline {
+    padding-right: 330px;
+  }
+
+  .reverseHeadline {
+    padding-left: 300px;
+  }
+
+  .unfolded {
+    margin: 0 20px 30px;
+  }
+
+  .footer {
+    width: 764px;
+  }
+}
