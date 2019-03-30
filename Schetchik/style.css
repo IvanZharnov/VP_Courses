@@ -1,4 +1,4 @@
-.butt {
+.button {
   width: 150px;
   height: auto;
   border: 3px solid #424040;
@@ -6,33 +6,34 @@
   margin: 10px;
   font-family: 'Mrs Sheppards', cursive;
   font-size: 25px;
+  outline: none;
 }
-.pl {
+.plus {
   background-color: #69f06e;
 }
-.min {
+.minus {
   background-color: #f75252;
 }
-.res {
+.reset {
   background-color: #9c9a9a;
 }
-.butt:hover {
+.button:hover {
   cursor: pointer;
 }
-.pl:active {
+.plus:active {
   background-color: #44ff1f;
   border-color: black;
 }
-.min:active {
+.minus:active {
   background-color: #fa1111;
   border-color: black;
 }
-.res:active {
+.reset:active {
   background-color: #757575;
   border-color: black;
 }
-#Value {
-  font-family: 'Mrs Sheppards', cursive;
+.value {
+  font-family: 'Mrs Sheppards';
   font-size: 50px;
 }
 .content {
@@ -48,7 +49,7 @@
   justify-content: center;
   align-items: center;
 }
-.button {
+.conteiner {
   display: flex;
   flex-direction: row;
   align-items: center;

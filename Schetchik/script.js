@@ -1,21 +1,16 @@
-var a = 0;
-var displayValue = document.getElementById('Value');
+'use strict';
 
-var updateValue = function () {
-    displayValue.innerHTML = a;
+let a = 0;
+
+const plus = () => {
+    document.getElementById('value').innerHTML = ++a;
 };
 
-var plus = function (valueToPlus) {
-    a += valueToPlus;
-    document.getElementById('Value').innerHTML = a;
+const minus = () => {
+    document.getElementById('value').innerHTML = --a;
 };
 
-var minus = function (valueToMinus) {
-    a -= valueToMinus;
-    document.getElementById('Value').innerHTML = a;
-};
-
-var reset = function () {
+const reset = () => {
     a = 0;
-    document.getElementById('Value').innerHTML = 0;
+    document.getElementById('value').innerHTML = 0;
 };
