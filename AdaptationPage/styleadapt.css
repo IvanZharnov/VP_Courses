@@ -31,13 +31,13 @@ body {
 h1 {
 	color: white;
 	margin: 15px;
-	
+
 }
 p {
 	color: white;
 	opacity: 0.7;
 	margin: 15px;
-	
+
 }
 .buttons {
 	margin: 30px 10px;
@@ -57,8 +57,9 @@ p {
 	margin: 0px 5px 0px 0px;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
-#download {
+.icondownload {
 	width: 15px;
 	height: 15px;
 	margin-right: 10px;
@@ -68,7 +69,7 @@ a1 {
 	color: #4696e5;
 	font: 16px Arial;
 	font-weight: bold;
-	 
+
 }
 .learn {
 	border: 2px solid white;
@@ -79,8 +80,9 @@ a1 {
 	margin: 0px 0px 0px 5px;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
-#arrow {
+.iconarrow {
 	width: 15px;
 	height: 15px;
 	margin-right: 10px;
@@ -98,56 +100,58 @@ a2 {
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
-#woman {
+.woman {
 	border: 2px solid #78b2ec;
 	width: inherit;
 }
-#dynamic {
-	width: 35px;
+.dynamic {
+	width: 40px;
 	height: 1px;
 	border: 2px solid #78b2ec;
 	border-radius: 50px;
+	margin-top: 15px;
 }
-#circle {
+.circle {
 	width: 35px;
 	height: 35px;
 	border: 2px solid #78b2ec;
 	border-radius: 50%;
+	margin-bottom: 15px;
 }
-#circle:hover {
+.circle:hover {
 	border: 2px solid white;
 	cursor: pointer;
 }
 .info {
 	font: 18px/30px Arial;
 	letter-spacing: -0.7px;
-	padding: 30px 200px;
-	
+	padding: 30px 250px;
+
 }
-.ruka, .stol, .city {
+.hand, .table, .city {
 	display: flex;
-	flex-direction: row;
+	/* flex-direction: row; */
 	justify-content: center;
 	align-items: center;
 }
-.stol {
+.table {
 	text-align: right;
 }
 p2, h2 {
 	color: #828285;
-	
+
 }
-#pict {
+.picture {
 	width: 300px;
 	height: 300px;
 	border: 2px solid white;
 	border-radius: 50%;
 	margin: 60px;
 }
-.social {
+.footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -158,7 +162,7 @@ p2, h2 {
 	display: flex;
 	flex-direction: row;
 }
-#logo {
+.logo {
 	width: 50px;
 	height: 50px;
 	margin: 25px;
@@ -166,7 +170,7 @@ p2, h2 {
 p3 {
 	color: #828285;
 	font: 14px Arial;
-	
+
 }
 @media screen and (max-width: 768px) {
 .content {
@@ -179,9 +183,9 @@ p3 {
 }
 .info {
 	padding: 30px 30px;
-	font: 15px/24px Arial;
+	/* font: 15px/24px Arial; */
 }
-#pict {
+.picture {
 	width: 190px;
 	height: 190px;
 	margin: 50px;
@@ -193,10 +197,9 @@ p3 {
 	margin: 20px;
 }
 .buttons {
-	
 	display: flex;
 	flex-direction: column;
-	
+
 }
 .download, .learn {
 	width: 380px;
@@ -206,14 +209,14 @@ p3 {
 .left {
 	font: 20px Arial;
 }
-.ruka, .stol, .city {
+.hand, .table, .city {
 	flex-direction: column;
 	text-align: center;
 }
-.stol {
+.table {
 	flex-direction: column-reverse;
 }
-#pict {
+.picture {
 	width: 250px;
 	height: 250px;
 	margin: 20px;
