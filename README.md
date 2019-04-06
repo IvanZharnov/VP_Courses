@@ -1,1 +1,0 @@
-Galya development branch.
